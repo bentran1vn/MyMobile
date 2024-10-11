@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
 
                 // Move to HomePage after successful login
-                Intent intent = new Intent(MainActivity.this, HomePage.class);
+                Intent intent = new Intent(MainActivity.this, ProductPage.class);
                 startActivity(intent);
 
                 // Optional: Call finish() to close the login activity

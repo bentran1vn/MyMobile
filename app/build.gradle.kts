@@ -35,6 +35,11 @@ android {
 }
 
 dependencies {
+    implementation (libs.recyclerview)
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.15.1")
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
     implementation (libs.navigation.fragment.v253)
     implementation (libs.navigation.ui)
     implementation (libs.appcompat.v161)
